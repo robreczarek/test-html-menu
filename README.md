@@ -5,3 +5,16 @@ Self-Study: Building a rollout menu from scratch.
 
 In order to preview the timer, open 'index.html' in your web browser of choice.
 
+
+To test via the command line, run the following:
+```bash
+npm test
+```
+
+To check the code (lint) for consistency with coding standards, run this command:
+```bash
+npm run lint
+```
+
+## TODO
+* [ ] Get sub-menu hover action to work
