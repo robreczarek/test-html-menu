@@ -3,7 +3,7 @@ Self-Study: Building a rollout menu from scratch.
 
 ## How to run?
 
-In order to preview the timer, open 'index.html' in your web browser of choice.
+In order to preview the menu, open 'index.html' in your web browser of choice.
 
 
 To test via the command line, run the following:
