@@ -1,11 +1,12 @@
 div.nav {
     background-color: blue;
     color: white;
-    width: 100px;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+    z-index: 9999;
+    float: left;
 }
 
 div.nav:hover {
@@ -13,10 +14,28 @@ div.nav:hover {
 }
 
 div.sub-nav {
-    background-color: blue;
+    display: none;
+    background-color: navy;
     color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 0px;
+    z-index: 9999;
+}
+
+.sub-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.sub-item:hover {
+    background-color: blue;
+    width: 100%;
+}
+
+.nav:hover .sub-nav {
+    visibility: visible;
+    display: inline;
 }

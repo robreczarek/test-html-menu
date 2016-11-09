@@ -5,5 +5,6 @@
     }
 
 
+    return (root.Menu = Menu);
 
 }(this));
