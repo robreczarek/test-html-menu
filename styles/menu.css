@@ -1,28 +1,50 @@
-div.nav {
+.nav-item {
+    float: left;
+    z-index: 9999;
+    /*overflow: hidden;*/
+    cursor: pointer;
+    position: relative;
+}
+
+.nav-item:hover .sub-nav {
+    visibility: visible;
+    display: inline;
+}
+
+.nav {
     background-color: blue;
     color: white;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
-    z-index: 9999;
-    float: left;
 }
 
-div.nav:hover {
+.nav:hover {
     background-color: navy;
 }
 
-div.sub-nav {
+.nav a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.sub-nav {
     display: none;
+    position: absolute;
     background-color: navy;
     color: white;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 2px;
-    padding-bottom: 2px;
     margin: 0px;
     z-index: 9999;
+}
+
+.sub-item {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .sub-item a {
@@ -32,10 +54,8 @@ div.sub-nav {
 
 .sub-item:hover {
     background-color: blue;
-    width: 100%;
 }
 
-.nav:hover .sub-nav {
-    visibility: visible;
-    display: inline;
+.sub-item:hover .nav {
+    background-color: navy;
 }

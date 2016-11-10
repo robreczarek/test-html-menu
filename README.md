@@ -17,4 +17,7 @@ npm run lint
 ```
 
 ## TODO
-* [ ] Get sub-menu hover action to work
+* [ ] Fix background in sub-nav
+
+## DONE
+* [x] Get sub-menu hover action to work
