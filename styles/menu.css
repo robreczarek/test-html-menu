@@ -1,7 +1,6 @@
 .nav-item {
     float: left;
     z-index: 9999;
-    /*overflow: hidden;*/
     cursor: pointer;
     position: relative;
 }
@@ -37,6 +36,7 @@
     color: white;
     margin: 0px;
     z-index: 9999;
+    overflow: visible;
 }
 
 .sub-item {
