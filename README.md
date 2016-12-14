@@ -16,7 +16,12 @@ To check the code (lint) for consistency with coding standards, run this command
 npm run lint
 ```
 
+## Demo
+A working version of the app can be viewed here:
+https://robreczarek.github.io/test-html-menu/
+
 ## TODO
+* [ ] Get second level of the nav to work properly
 * [ ] Fix background in sub-nav
 
 ## DONE
